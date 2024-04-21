@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chateau Chien</title>
+    <link href="../css/index.css" type="text/css" rel="stylesheet">
+    <script src="./scripts/myScript.js"></script> <!----SCRIPT LINK ADDED WITH JS CODE------>
+</head>
+
+
+
+<body>
+    <header>
+        <h1 id="myHeader">Chateau Chien</h1>
+    </header>     
+    <br>
+
+
+
+<!--NAV bar area/ navcontainer rule added-->
+<div class="wrapper">  
+    <nav class="navcontainer">
+    <a href="../index.html" class="button">Home</a>
+    <a href="../pages/classes2.html" class="button">Classes</a>
+    <a href="../pages/team.html" class="button">Our Team</a>
+    <a href="../pages/contact.html" class="button">Contact</a>
+    <a href="../pages/OurGraduates.html" class="button">Our Graduates</a>
+</nav>
+
+
+<main>
+     <!--GRID container rules added below and their class names-->
+ <div class="grid-container img">  
+        <h1 class="GradTitle">Our Graduates!</h1>
+        <img src="../images/SquareHusky.jpg" alt="husky dog" class="huskydog">
+        <img src="../images/WideDogPack.png" alt="pack of dogs" class="widepack">
+        <img src="../images/LongDiplomadog.png" alt="dog with a hat" class="longdiplomat">
+        <img src="../images/SquareJackRussel.jpg" alt="Jack Russel dog" class="dogJR">
+        <img src="../images/LongDogWithBooks1.png" alt="dog with glasses" class="longdogimage">
+        <img src="../images/WideWithOwner.jpg" alt="dog with owner" class="ownerimg">
+        <img src="../images/Squaretwodogs750.png" alt="two dogs" class="twodogsimg">   
+ </div>
+</main> 
+	</div>
+</body>
+
+
+
+<!--FOOTER AREA BELOW-->
+<footer>
+    
+    <p class="clear">Copyright &copy; 2024 Chateau Chien
+        <br>
+        <a href="mailto:someone@example.com">yourfirstname@yourlastname.com</a>
+        <br>
+        Some images by <a href="https://www.freepik.com">Freepik</a> <!--hypelink added for grid images-->
+    
+<!--------DATE ADDED WITH JS CODE---------->
+    <p id="date" class="clear"></p>
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d;
+        </script>
+    </p>
+  </footer>
+</html>

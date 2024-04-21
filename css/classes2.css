@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/***********RULES FOR SMALL SCREEN CLASSES PAGE UPDATED WITH DW******************/
+
+body {
+    color: #FFFFFF;
+    background-image: url(../images/64796.jpg); /******NEW BKG IMG ADDED FROM FREEPIK******/
+    background-size: cover;
+    background-attachment: fixed;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+/************NEW NAVBAR RULES ADDED(DELETED THE OLD ONE) WITH BOOTSTRAP**********/
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+    color: #FF1B1F;
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+    color: #FF1B1F;
+}
+
+
+
+
+  
+
+
+
+
+
+/**********UPDATED RULES FOR THE UL LIST ON THE LEFT******MADE EQUAL WTH THE BELOW*******/
+section {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    float: right;
+    margin-top: 200px;
+    bottom: 100px;
+}
+
+
+/**********UPDATED RULES FOR CLASS DESCRIPTION ON THE RIGHT*******MADE EQUAL WITH THE ABOVE*******/
+aside {
+    width: 35%;
+    float: left;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    margin-top: 200px;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 9%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/***********NEW FOOTER RULES - GRADIENT AND PADDING ADDED**********/
+
+footer {
+    clear: both;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.60) 0%,rgba(212,212,201,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,0.60) 0%,rgba(212,212,201,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,0.60) 0%,rgba(212,212,201,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.60) 0%,rgba(212,212,201,1.00) 100%);
+    height: 130px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+	
+  
+}
+
+p.clear {
+    clear: left;
+    text-align: center;
+    color: white;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+/**********LARGE SCREEN RULES FOR CLASSES PAGE**********/
+@media (max-width: 700px){
+
+/*******TWO EQUAL "TABLES" ON LARGER SCREEN SIZE ADJUSTMENT********/
+section {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    float: none;
+}
+aside {
+    width: 90%;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    float: none;
+    margin-top: 150px;
+    padding-top: 0px;
+}
+}
+
+
+
+
+
+
+/*************3rd TYPE OF SCREEN SIZE***********/
+@media (max-height:200px){
+section {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    float: none;
+}
+aside {
+    width: 90%;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    float: none;
+    margin-top: 150px;
+    padding-top: 0px;
+}
+
+
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chateau Chien</title>
+    <link href="./css/index.css" type="text/css" rel="stylesheet">
+    <script src="./scripts/myScript.js"></script> <!----SCRIPT LINK ADDED WITH JS CODE------>
+</head>
+
+
+
+<!---------ALERT BOX ADDED WITH JS CODE--------->
+<body onload="myFunction()">
+    <header>
+        <h1 id="myHeader">Chateau Chien</h1>
+    </header>     
+    <br>
+
+
+
+
+<div class="wrapper">                   <!--wrapper added for nav bar orientation-->
+    <nav class="navcontainer">                <!--navcontainer added for the links alignment-->
+        <a href="./index.html" class="button">Home</a>
+        <a href="./pages/classes2.html" class="button">Classes</a>
+        <a href="./pages/team.html" class="button">Our Team</a>
+        <a href="./pages/contact.html" class="button">Contact</a>
+        <a href="./pages/OurGraduates.html" class="button">Our Graduates</a>
+</nav>
+
+
+
+
+<div class="wrapper">               <!--wrapper added for <main> section orientation-->   
+<main>             
+    <img src="./images/homePageImage.jpg" alt="homepage dog" class="image">
+    <br>
+<h2>Good Doggie!</h2>
+<p><span class="largeritalics">Chateau Chien</span> welcomes all of our furry friends to bring your person and train them to keep you happy. Whether you are just a pup getting to know your new family, a young dog learning your first tricks, or a more mature dog who needs an etiquette refresher, we have a class for you.
+    <br>
+    <br>
+Our trainers offer group classes where you can make some new friends and watch them train their people while you train yours. We also have private sessions if you are a bit shy or need something special. </p>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+<!-------------------MEDIA LINK ADDED BELOW/ VIDEO & AUDIO DOWNLOADED FROM STORYBLOCKS.COM-------------------->
+    
+<video controls width="100%" height="400" autoplay loop muted 
+    src="./media/dog training video.mp4" type="video/mp4">
+    </video>
+<br>
+    <audio controls autoplay loop>
+        <source src="./media/audio.mp3" type="audio/mpeg">
+        </audio>
+
+<!------------------------------------------------------------------------------------------------------------>
+
+
+
+<br>       
+<br>
+<br> 
+        
+<h4><span class="largeritalics">Chateau Chien</span></h4> <!--span tag added-->
+<p>612 Fido Trail
+    <br>
+   Laika, CA 96162
+    <br>
+    <br>
+   888-555-5555
+ </p>
+ <br>
+ <br>
+</main>
+</div>
+</div>
+  
+
+
+
+
+<!--FOOTER AREA BELOW-->
+<footer>
+    <p class="clear">Copyright &copy; 2024 Chateau Chien
+        <br>
+        <a href="mailto:someone@example.com">yourfirstname@yourlastname.com</a>
+
+<!--------DATE ADDED WITH JS CODE---------->
+    <p id="date" class="clear"></p>
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d;
+        </script>
+    </p>
+  </footer>
+</body>
+</html>

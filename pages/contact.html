@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chateau Chien</title>
+    <link href="../css/index.css" type="text/css" rel="stylesheet">
+    <script src="./scripts/myScript.js"></script> <!----SCRIPT LINK ADDED WITH JS CODE------>
+</head>
+
+
+
+<body>
+    <header>
+        <h1 id="myHeader">Chateau Chien</h1>
+    </header>     
+
+
+
+<!--NAV bar area/ navcontainer rule added-->
+<div class="wrapper">  
+    <nav class="navcontainer">
+    <a href="../index.html" class="button">Home</a>
+    <a href="../pages/classes2.html" class="button">Classes</a>
+    <a href="../pages/team.html" class="button">Our Team</a>
+    <a href="../pages/contact.html" class="button">Contact</a>
+    <a href="../pages/OurGraduates.html" class="button">Our Graduates</a>
+</nav>
+
+
+
+
+
+
+<div class="wrapper">  
+    <main>
+        <h2>Let us know how to contact you with the answers you need!</h2>
+    <br>
+        <p>Please fill out the form with your personal information to contact you or call us back at your convenience. Office hours 9am - 9pm.</p>
+    <br>
+<!-------------FORM ADDED BELOW / RESPONSIVE LAYOUT WITH GRID RULES--------------------->
+<div class="container2">
+    <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname"> Full Name:</label>
+                </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="fname" required>
+                </div>
+               </div> 
+            <div class="row">
+                <div class="col-25">
+                <label for="e-mail">Enter your email:</label>
+                </div>
+            <div class="col-75">
+                <input type="email" id="email" name="email" placeholder="put your email here" required>
+                </div>
+            </div>
+        <div class="row">
+                <div class="col-25">        
+        <label for="phone">Enter your phone number:</label>
+        </div>
+        <div class="col-75">
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-25">  
+        <label for="contact">Preferred Contact:</label>
+        </div>
+        <div class="col-75">
+        <select name="choices" id="choices">
+            <option value="email">Email me</option>
+            <option value="phone">Phone me between 1pm-4pm</option>
+            <option value="phone">Phone me between 6pm-9pm</option>
+        </select>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-25"> 
+        <label for="questions">Questions or Concerns?</label>
+        </div>
+        <div class="col-75">
+        <textarea id="message" name="message" placeholder="Write something.." rows="4" cols="50"></textarea>
+            </div>
+            </div>
+            <div class="row"> 
+        <input type="submit" value="Send Now!">
+        </div>    
+    </form>    
+   </div>  
+    
+    <img src="../images/DogOnPhone" alt="dog on the phone">
+    </main>    
+    </div>
+</div>
+</body>
+
+
+
+<!--FOOTER AREA BELOW-->
+<footer>
+    <p class="clear">Copyright &copy; 2024 Chateau Chien
+        <br>
+    <a href="mailto:someone@example.com">yourfirstname@yourlastname.com</a>
+
+    <!--------DATE ADDED WITH JS CODE---------->
+    <p id="date" class="clear"></p>
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d;
+        </script>
+    </p>
+    
+  </footer>
+</html>

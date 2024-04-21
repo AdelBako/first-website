@@ -1,0 +1,618 @@
+/*Default rules for SMALL screens */
+
+
+
+body {
+    background-color: rgba(245,215,158,1.00);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 0px;
+}
+
+
+
+
+/*These are the rules for EVERY page */
+header {
+    background-image: url(../images/LogoSmall.png);
+    min-height: 50px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: rgba(173,216,230,1.00);
+    color: darkblue;
+    }
+
+#myHeader {
+    font-family:Brush Script MT;
+    fallback: cursive;
+    font-size: 4em;
+}
+
+
+
+
+
+
+
+/******CONTACT PAGE RULES FOR CONTAINER FORM SMALL SCREEN***********/
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid darkblue;
+    border-radius: 4px;
+    resize: vertical;  
+}
+
+
+input[type=email] {
+	border: 2px solid darkblue;
+}
+
+input[type=tel] {
+	border: 2px solid darkblue;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+
+}
+
+input[type=submit] {
+  background-color: royalblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: deepskyblue;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: rgba(173,216,230,1.00);
+  padding: 20px;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+/* NAVIGATION BAR for EVERY page*/
+
+nav {
+  font-size: 1.5em;
+
+}
+
+
+
+.navcontainer {                /* buttons rules set to row direction for all SMALL pages*/
+  flex-direction: row;
+  
+}
+
+
+
+.button {                       /*rules for the BUTTONS in navbar area*/
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+
+.button:hover {
+  background-color: rgb(196, 159, 116);
+  color: white;
+
+}
+
+
+.wrapper {                    /* nav class name rule set for horizontal position*/
+  display: flex;
+  
+}
+
+/* <MAIN> area rules */
+main {
+  height: 100vh;
+  overflow:auto;
+}
+
+
+
+
+
+
+
+
+/*These are rules for the <FOOTER> in EVERY page*/
+p.clear {
+  clear: left;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+
+
+/* These are rules for the SMALL index page*/
+  .image {
+    background-image: url(../images/homePageImage.jpg);
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  main {
+    background-color: white;
+    color: navy;
+    
+  }
+
+
+  .largeritalics {
+    size: 1.2em;
+    font-style: italic;
+  }
+
+
+
+
+
+
+
+
+
+  /* These are rules for the SMALL <Classes> page*/ 
+
+  dt {
+    font-weight: bold;
+  }
+
+
+  aside {
+    width: 30%;
+    padding: 30px ;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    background-color: rgb(226, 228, 193);
+    text-align: center;
+    border-radius: 25px;
+    border: 10px solid #526633;
+    clear: both;
+  }
+
+
+  #myList {                       /* border added around my list on Classes page*/
+    background-color:rgb(236, 250, 205);
+    clear: both;
+    box-sizing: border-box;
+    float: right;
+  }
+
+                      
+
+  .container {                    /* image float rule on Classes page*/
+    float: right;
+  }
+
+
+
+/*rules to create 2 unequal columns in CLASSES page*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+  /* These are rules for the SMALL TEAM page*/
+
+  .flexbox {                /*flexbox rules added around images*/
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+  
+  }
+
+  .sponsor1 {               /*sponsor 1 rules adjusted*/
+    max-width: 100px;
+    height: auto;
+    
+  }
+
+  .sponsor2 {               /*sponsor 2 rules added*/
+    max-width: 100px;
+    height: auto;
+    
+  }
+
+  .sponsor3 {               /*sponsor 3 rules added*/
+    max-width: 100px;
+    height: auto;
+    
+  }
+
+  #myTrainers {             /* rules for the Trainers ordered list */
+    font-weight: bold;
+    color: navy;
+    background-color: rgb(249, 239, 219);
+    border-radius: 10px;
+  }
+
+  .containerlist {             /* rules added for the Trainers list text-align*/
+    text-align: center;
+  }
+
+  figure {
+    border-radius: 80px;
+    margin:auto;
+  }
+
+  figcaption {
+    text-align: center;
+    font-weight: bold;
+  }
+
+.flex-container {           /* rules added for the alignment of images*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* GRID Rules for <Our Graduates> page*/
+  
+.grid-container {            
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+}
+
+.grid-container img{
+  width: 100%;
+  height: auto;
+  display: block;
+ 
+}
+
+.GradTitle {
+  grid-area: 1;
+}
+
+
+.widepack {
+  grid-column: 1 / span 9;
+  grid-row: 2;
+  
+}
+
+.longdiplomat {
+  grid-column: 1 / span 2;
+  grid-row: 3 ;
+  min-height: 400px;
+  max-height: 700px;
+  width: fit-content;
+}
+
+.longdogimage {
+  grid-column: 3 / span 2;
+  grid-row: 3 ;
+  min-height: auto;
+  max-height: 700px;
+  width: fit-content;
+}
+
+.twodogsimg {
+  grid-column: 6 / span 4 ;
+  grid-row: 3;
+
+}
+
+.ownerimg {
+  grid-column: 1 / span 9 ;
+  grid-row: 4;
+}
+
+.dogJR {
+  grid-column: 1 / span 4;
+  grid-row: 5;
+}
+
+.huskydog {
+  grid-column: 5 / span 6 ;
+  grid-row: 5 / span 6;
+}
+
+
+
+
+
+
+
+
+/************MEDIA QUERY FOR LARGE SCREEN(REVERSED HERE) CONTACTS PAGE FORM**********/
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************* LARGE SCREEN RULES BELOW ************************************/
+
+
+
+/*  Following are the CHANGES to the default rules for LARGE screens*/
+
+@media screen and (min-width:650px) {
+
+  body {
+    background-color: rgba(173,216,230,1.00);
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  header {
+    background-image: url(../images/LogoLarge.png);
+    min-height: 100px;
+    background-color: rgba(245,215,158,1.00);
+   }
+
+   
+   .image {                     /* rules change for image of index page for LARGE screen*/
+    width: 100%;
+    height: auto;
+    
+  }
+
+
+  .navcontainer {               /* navbar changes to column direction for LARGE screen*/
+    flex-direction: column;
+    height: 100vh;
+  }
+
+
+
+  .button {                     /*rules for the BUTTONS in navbar for ALL LARGE screens*/
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+
+
+  .wrapper {                   /* nav class name rule set for vertical position*/
+    display: flex;
+  
+  }
+
+
+
+
+
+
+
+/* These are additional rules for the LARGE Team page*/
+  .sponsor1 {
+    max-width: 300px;
+    height: auto;
+
+  }
+
+  .sponsor2 {             /*sponsor 2 added*/
+    max-width: 300px;
+    height: auto;
+  }
+
+  .sponsor3 {             /*sponsor 3 added*/
+    max-width: 300px;
+    height: auto;
+  }
+
+
+
+  figure {
+    border-radius: 150px;
+  }
+
+
+
+
+
+
+
+/*Columns on Classes page for LARGE screen*/
+ .column {
+  width: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/**************SMALL SCREEN RULES FOR CONTACTS PAGE FORM(REVERSED)***********/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid darkblue;
+  border-radius: 4px;
+  resize: vertical;
+}
+	
+	
+input[type=email] {
+	border: 2px solid darkblue;
+}
+
+input[type=tel] {
+	border: 2px solid darkblue;
+}
+
+	
+	
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: royalblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: deepskyblue;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: rgba(245,215,158,1.00) ;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}

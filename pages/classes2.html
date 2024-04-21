@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--NEW META RULE ADDED-->
+<title>Classes</title>
+<link href="../css/classes2.css" type="text/css" rel="stylesheet">
+<link href="../css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css"> <!--BOOTSTRAP LINK REFERENCE-->
+<script src="./scripts/myScript.js"></script> <!----SCRIPT LINK ADDED WITH JS CODE------>
+</head>
+
+
+
+<!--BOOTSTRAP RULES ADDED FOR THE NEW NAVBAR-->	   
+<body style="padding-top: 70px">
+	
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Chateau Chien&nbsp;</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+	      <li class="nav-item"> <a class="nav-link" href="../pages/classes2.html">Classes</a> </li> <!--UPDATED LINK FOR THE NEW CLASSES PAGE-->
+		  <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="team.html">Our Team</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="OurGraduates.html">Our Graduates</a> </li>
+        </ul>
+      </div>
+  </nav>
+	
+
+
+
+<!--THE TWO OF THEM EQUALLY ADJUSTED ON CSS (ASIDE & SECTION TABLES)--> <!--DIV TAGS ARE ELIMINATED FROM THE "OLD" CLASSES PAGE-->
+<aside>
+	 <h2>Pick the right classes for you!</h2>
+    <br>
+    <div>
+        <ul>
+            <li>Treats and toys provided in all classes.</li>
+            <br>
+            <li>Sessions last two hours.</li>
+            <br>
+            <li>New classes start at the beginning of every month.</li>
+            <br>
+            <li>Bring your favorite leash.</li>
+        </ul>
+  </div>
+</aside>
+	
+	
+<section>
+	<h2>Class Descriptions</h2>
+		<dl>
+        <dt>Puppy Pawsitivity</dt>
+        <dd>This class helps with socialization skills, potty and crate training. Learn
+            foundational cues like <q>sit</q>,<q>down</q> and <q>come</q>. Get tips on how to
+            address chewing, teething and jumping on guests. For new puppies
+            to 8 months old.</dd>
+        <br>
+        <dt>Dynamic Dogs</dt> 
+        <dd>This class is for dogs over 6 months who understand the basics and need
+            to upgrade their skills. Learn loose-leash walking, <q>Leave it</q>,<q>wait</q>
+            and <q>lay down</q>. Get tips on excessive barking, and greeting
+            strangers. Tips to curb undesired behaviors such as jumping,
+            barking and digging.</dd>
+        <br>
+        <dt>Tricks and Treats</dt> 
+        <dd>In this class, you will learn common tricks like <q>shake paw</q>, <q>beg</q> or
+            <q>play dead</q>. The class will strengthen socialization skills and assist with
+            any lingering behavioral issues. For dogs over 1 year.</dd>
+		</dl>
+</section>
+	
+	
+<!--RULES FROM BOOTSTRAP ADDITION TO THE NAVBAR SECTION-->
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.4.1.js"></script>
+</body>
+
+
+
+
+
+<!--FOOTER RULES (NEW BKG IMAGE ADDED FROM FREEPIK)-->
+<footer>
+	
+    <p class="clear">Copyright &copy; 2024 Chateau Chien
+        <br>
+        <a href="mailto:someone@example.com">yourfirstname@yourlastname.com</a>
+		<br>
+		Some images by <a href="https://www.freepik.com">Freepik</a>
+    
+    <!--------DATE ADDED WITH JS CODE---------->
+    <p id="date" class="clear"></p>
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d;
+        </script>
+    </p>
+
+  </footer>
+
+</html>
